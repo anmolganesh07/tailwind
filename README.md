@@ -1,6 +1,6 @@
 # Personal Portfolio with Tailwind CSS
 
-## 🌟 Description
+## Description
 This is a personal portfolio project built using **Vite** and **Tailwind CSS**. It showcases a profile photo, personal information, skills, and other sections in a clean and responsive design.
 
 ---
