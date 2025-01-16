@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-100 to-pink-100 min-h-screen flex items-center justify-center">
+    <main class="bg-white shadow-lg rounded-xl p-6 max-w-md w-full">
+        
+        <header class="flex flex-col items-center">
+            
+            <figure class="relative">
+                <img
+                    src="Passport photo.jpeg"
+                    alt="Profile"
+                    class="w-24 h-24 rounded-full border-4 border-white shadow-md"
+                />
+                <button
+                    class="absolute bottom-0 right-0 bg-blue-500 text-white rounded-full p-1 shadow-md">
+                    +
+                </button>
+            </figure>
+            <!-- Name and Designation -->
+            <h1 class="mt-4 text-xl font-semibold text-gray-800">Anmol G</h1>
+            <p class="text-sm text-gray-600">SOC ANALYST</p>
+            <p class="text-sm text-gray-500 ">ABC Company</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section class="mt-6">
+            <h2 class="text-lg font-semibold text-gray-800">About Me</h2>
+            <p class="text-sm text-gray-600 mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, voluptatum tenetur ad eligendi nemo, quia aspernatur aliquam sit placeat sed? Voluptates, placeat dolorum! Minus, quis? Corrupti modi aliquid dolor!
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mt-6">
+            <h2 class="text-lg font-semibold text-gray-800">Skills</h2>
+            <ul class="flex flex-wrap gap-2 mt-2">
+                <li>
+                    <span
+                        class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium shadow-sm">
+                        SEO Analytics
+                    </span>
+                </li>
+                <li>
+                    <span
+                        class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium shadow-sm">
+                        Campaign Management
+                    </span>
+                </li>
+                <li>
+                    <span
+                        class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium shadow-sm">
+                        Segmentation
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="mt-6">
+            <h2 class="text-lg font-semibold text-gray-800">Gallery</h2>
+            <div class="grid grid-cols-4 gap-2 mt-2">
+                <figure>
+                    <img src="image1.jpeg" alt="Gallery 1" class="w-full h-20 object-cover rounded-lg">
+                </figure>
+                <figure>
+                    <img src="image2.jpeg" alt="Gallery 2" class="w-full h-20 object-cover rounded-lg">
+                </figure>
+                <figure>
+                    <img src="image3.jpeg" alt="Gallery 3" class="w-full h-20 object-cover rounded-lg">
+                </figure>
+                <figure>
+                    <img src="image4.jpeg" alt="Gallery 4" class="w-full h-20 object-cover rounded-lg">
+                </figure>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
