@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# Personal Portfolio with Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Description
+This is a personal portfolio project built using **Vite** and **Tailwind CSS**. It showcases a profile photo, personal information, skills, and other sections in a clean and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive design using Tailwind CSS.
+- Semantic HTML for better accessibility and SEO.
+- "About Me" and "Skills" sections styled with Tailwind utilities.
+- Dynamic and visually appealing layouts.
+- Easy customization.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+##  Technologies Used
+- **Vite**: Lightning-fast frontend tooling.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **HTML5**: Semantic structure for the web.
+- **CSS3**: Modern web styling.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+##  Installation and Setup
+
+Follow these steps to clone and run the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Install Dependencies
+Make sure you have Node.js installed on your system. Then, install the required dependencies:
+```bash
+npm install
 ```
+
+
+3. Run the Development Server
+Start the local development server:
+
+```bash
+npm run dev
+```
+
+4. View the Project
+Open your browser and navigate to:
+```bash
+http://localhost:3000
+```
+
+
+
+
+
+
+
