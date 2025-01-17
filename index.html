@@ -1,85 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anmol G - SOC Analyst at ABC Company. Passionate about cybersecurity.">
+    <meta name="keywords" content="SOC Analyst, Cybersecurity, SEO, Leadership, Campaign">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Anmol G - Profile Page">
+    <meta property="og:description" content="Anmol G - SOC Analyst at ABC Company">
+    <meta property="og:image" content="Passport photo.jpeg">
+    <meta name="author" content="Anmol G">
+
     <title>Profile Page</title>
-    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" as="style" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="your-script.js" defer></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Anmol G",
+          "jobTitle": "SOC Analyst",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "ABC Company"
+          },
+          "image": "Passport photo.jpeg",
+          "url": "https://www.example.com"
+        }
+        </script>
+
+
 </head>
-<body class="bg-gradient-to-r from-blue-100 to-pink-100 min-h-screen flex items-center justify-center">
-    <main class="bg-white shadow-lg rounded-xl p-6 max-w-md w-full">
-        
-        <header class="flex flex-col items-center">
-            
+
+<body class="bg-white min-h-screen flex items-center justify-center">
+    <main class="bg-gradient-to-r from-blue-100 to-pink-100 shadow-lg rounded-xl max-w-md w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+<div class="p-6">
+        <header class="flex flex-col items-center sm:flex-row sm:justify-start sm:items-center sm:gap-6">
             <figure class="relative">
-                <img
-                    src="Passport photo.jpeg"
-                    alt="Profile"
-                    class="w-24 h-24 rounded-full border-4 border-white shadow-md"
-                />
-                <button
-                    class="absolute bottom-0 right-0 bg-blue-500 text-white rounded-full p-1 shadow-md">
+                <img src="Passport photo.jpeg" alt="Profile"
+                    class="w-24 h-24 rounded-full border-4 border-white shadow-md" />
+                <button class="absolute bottom-0 right-0 bg-blue-500 text-white rounded-full p-1 shadow-md">
                     +
                 </button>
             </figure>
             <!-- Name and Designation -->
-            <h1 class="mt-4 text-xl font-semibold text-gray-800">Anmol G</h1>
-            <p class="text-sm text-gray-600">SOC ANALYST</p>
-            <p class="text-sm text-gray-500 ">ABC Company</p>
+            <div class="text-center sm:text-left">
+                <h1 class="mt-4 text-xl font-semibold text-gray-800">Anmol G</h1>
+                <p class="text-sm text-gray-600">SOC ANALYST</p>
+                <p class="text-sm text-gray-500">ABC Company</p>
+            </div>
         </header>
 
         <!-- About Me Section -->
         <section class="mt-6">
             <h2 class="text-lg font-semibold text-gray-800">About Me</h2>
             <p class="text-sm text-gray-600 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, voluptatum tenetur ad eligendi nemo, quia aspernatur aliquam sit placeat sed? Voluptates, placeat dolorum! Minus, quis? Corrupti modi aliquid dolor!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, voluptatum tenetur ad eligendi
+                nemo, quia aspernatur aliquam sit placeat sed? Voluptates, placeat dolorum! Minus, quis? Corrupti modi
+                aliquid dolor!
             </p>
         </section>
 
         <!-- Skills Section -->
         <section class="mt-6">
             <h2 class="text-lg font-semibold text-gray-800">Skills</h2>
-            <ul class="flex flex-wrap gap-2 mt-2">
-                <li>
-                    <span
-                        class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium shadow-sm">
-                        SEO Analytics
-                    </span>
-                </li>
-                <li>
-                    <span
-                        class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium shadow-sm">
-                        Campaign Management
-                    </span>
-                </li>
-                <li>
-                    <span
-                        class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium shadow-sm">
-                        Segmentation
-                    </span>
-                </li>
-            </ul>
+            <div class="flex flex-wrap gap-2">
+
+                <div class="bg-white border-2 border-blue-400 text-blue-600 px-4 py-2 rounded-full text-sm font-medium shadow-sm">
+                    SEO Analytics
+                </div>
+
+
+                <div class="bg-white border-2 border-blue-400 text-blue-600 px-4 py-2 rounded-full text-sm font-medium shadow-sm">
+                    Campaign
+                </div>
+
+
+                <div class="bg-white border-2 border-blue-400 text-blue-600 px-4 py-2 rounded-full text-sm font-medium shadow-sm">
+                    Segmentation
+                </div>
+
+
+
+
+
+                <div class="bg-white border-2 border-blue-400 text-blue-600 px-4 py-2 rounded-full text-sm font-medium ">
+                    Leadership
+                </div>
+
+            </div>
         </section>
 
         <!-- Gallery Section -->
-        <section class="mt-6">
-            <h2 class="text-lg font-semibold text-gray-800">Gallery</h2>
-            <div class="grid grid-cols-4 gap-2 mt-2">
-                <figure>
-                    <img src="image1.jpeg" alt="Gallery 1" class="w-full h-20 object-cover rounded-lg">
-                </figure>
-                <figure>
-                    <img src="image2.jpeg" alt="Gallery 2" class="w-full h-20 object-cover rounded-lg">
-                </figure>
-                <figure>
-                    <img src="image3.jpeg" alt="Gallery 3" class="w-full h-20 object-cover rounded-lg">
-                </figure>
-                <figure>
-                    <img src="image4.jpeg" alt="Gallery 4" class="w-full h-20 object-cover rounded-lg">
-                </figure>
+        <!-- Gallery Section -->
+        <!-- Gallery Section -->
+        <!-- Gallery Section -->
+        <!-- Gallery Section -->
+        <!-- Gallery Section -->
+        <!-- Gallery Section -->
+        
+        
+        
+    </div>
+        
+        
+        
+        
+        
+        
+        <section class="my-6">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 px-6">Gallery</h2>
+            <div class="relative w-full overflow-clip">
+                <div
+                    class="flex gap-2 first:-ml-8">
+                    <img src="image1.jpeg" alt="Gallery 1" class="w-36 h-auto rounded-md shadow-sm" loading="lazy">
+                    <img src="image2.jpeg" alt="Gallery 2" class="w-36 h-auto rounded-md shadow-sm" loading="lazy">
+                    <img src="image3.jpeg" alt="Gallery 3" class="w-36 h-auto rounded-md shadow-sm" loading="lazy">
+                    <img src="image4.jpeg" alt="Gallery 4" class="w-36 h-auto rounded-md shadow-sm" loading="lazy">
+                </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
